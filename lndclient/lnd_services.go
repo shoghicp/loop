@@ -415,11 +415,11 @@ var (
 	defaultChainSubDir = "chain"
 
 	defaultAdminMacaroonFilename     = "admin.macaroon"
-	defaultInvoiceMacaroonFilename   = "invoices.macaroon"
-	defaultChainMacaroonFilename     = "chainnotifier.macaroon"
-	defaultWalletKitMacaroonFilename = "walletkit.macaroon"
-	defaultRouterMacaroonFilename    = "router.macaroon"
-	defaultSignerFilename            = "signer.macaroon"
+	defaultInvoiceMacaroonFilename   = "invoice.macaroon"
+	defaultChainMacaroonFilename     = "data/chain/bitcoin/mainnet/chainnotifier.macaroon"
+	defaultWalletKitMacaroonFilename = "data/chain/bitcoin/mainnet/walletkit.macaroon"
+	defaultRouterMacaroonFilename    = "data/chain/bitcoin/mainnet/router.macaroon"
+	defaultSignerFilename            = "data/chain/bitcoin/mainnet/signer.macaroon"
 	defaultReadonlyFilename          = "readonly.macaroon"
 
 	// maxMsgRecvSize is the largest gRPC message our client will receive.
